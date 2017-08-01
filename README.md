@@ -7,14 +7,14 @@ HTAConsole is a Javascript Console Log for HTAs (HTML Applications). It was made
 
 **HTAConsole does not require any dependency.**
 
-##Features
+## Features
 * Usage of console.* for debugging
 * Enter commands within the console
 * Command History (Type `history` in the console to see all your commands)
 * Clearing of console log (Type `clear` in the console)
 * Transparency
 
-##Installation and Initialization
+## Installation and Initialization
 
 Simply include the script file in your main HTA file, and it will initialize automatically.
 ```html
@@ -22,7 +22,7 @@ Simply include the script file in your main HTA file, and it will initialize aut
 ```
 You can now use console.log in your application, or use directly the command line.
 
-##Toggle
+## Toggle
 To hide and show the console, press `F12`, or insert this code :
 ```javascript
 htaConsole.toggle()
